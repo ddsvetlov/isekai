@@ -17,8 +17,7 @@ apt install -y crystal libclang-7-dev clang-7 libssl-dev libxml2-dev libyaml-dev
 add custom lib
 ```
 cd docker/
-cp bin/libclang.so.gz /tmp/libclang.so.gz
-gzip -d /tmp/libclang.so.gz
+cp bin/libclang.so.gz /tmp/libclang.so
 sudo cp /tmp/libclang.so /usr/lib/x86_64-linux-gnu/libclang-7.so.1
 sudo cp /tmp/libclang.so /usr/lib/libclang.so.7
 cd ..
