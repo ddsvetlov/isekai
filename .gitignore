@@ -1,0 +1,14 @@
+/docs/
+/lib/
+/bin/
+/.shards/
+shard.lock
+*.dwarf
+/isekai
+/boilerplate_gen
+
+/wk
+/wk1
+/wk2
+/wk3
+/clang+llvm-7.0.1-x86_64-linux-gnu-ubuntu-18.04
