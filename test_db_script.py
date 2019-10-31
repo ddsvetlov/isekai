@@ -125,7 +125,7 @@ def cleanUpForTesting():
     testtransactions = [
     {'transaction_ID':1 , 'fromUser_ID':1 , 'toUser_ID':2 , 'value':10 , 'nameCash':'cash1' },
     {'transaction_ID':2 , 'fromUser_ID':4 , 'toUser_ID':9 , 'value':5 , 'nameCash':'cash3' },
-    {'transaction_ID':3 , 'fromUser_ID': 10, 'toUser_ID':1 , 'value':20 , 'nameCash':'cash4' },
+    {'transaction_ID':3 , 'fromUser_ID': 10, 'toUser_ID':1 , 'value':5 , 'nameCash':'cash4' },
     {'transaction_ID':4 , 'fromUser_ID': 10, 'toUser_ID':3 , 'value':10 , 'nameCash':'cash4' }
     # {'transaction_ID':5 , 'fromUser_ID': , 'toUser_ID': , 'value': , 'nameCash': }
     # {'transaction_ID':6 , 'fromUser_ID': , 'toUser_ID': , 'value': , 'nameCash': }

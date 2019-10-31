@@ -1,0 +1,87 @@
+26
+cleanUpForTesting
+                        _id  user_ID  cash1  cash2  cash3  cash4
+0  5db95016e819881df9bb1828        1     10     20      0      0
+1  5db95016e819881df9bb1829        2     10     20      0      0
+2  5db95016e819881df9bb182a        3     10     20     30      0
+3  5db95016e819881df9bb182b        4      0     20     30      0
+4  5db95016e819881df9bb182c        5      0     20     30     40
+5  5db95016e819881df9bb182d        6      0      0     30     40
+6  5db95016e819881df9bb182e        7      0      0     30     40
+7  5db95016e819881df9bb182f        8      0      0      0     40
+8  5db95016e819881df9bb1830        9     10      0      0     40
+9  5db95016e819881df9bb1831       10     10      0      0     40
+------------------------------------------
+------------------------
+users
+                        _id  user_ID  cash1  cash2  cash3  cash4
+0  5db95016e819881df9bb1828        1     10     20      0      0
+1  5db95016e819881df9bb1829        2     10     20      0      0
+2  5db95016e819881df9bb182a        3     10     20     30      0
+3  5db95016e819881df9bb182b        4      0     20     30      0
+4  5db95016e819881df9bb182c        5      0     20     30     40
+5  5db95016e819881df9bb182d        6      0      0     30     40
+6  5db95016e819881df9bb182e        7      0      0     30     40
+7  5db95016e819881df9bb182f        8      0      0      0     40
+8  5db95016e819881df9bb1830        9     10      0      0     40
+9  5db95016e819881df9bb1831       10     10      0      0     40
+------------------------------
+BackUpUsers
+                        _id  user_ID  cash1  cash2  cash3  cash4
+0  5db95016e819881df9bb1828        1     10     20      0      0
+1  5db95016e819881df9bb1829        2     10     20      0      0
+2  5db95016e819881df9bb182a        3     10     20     30      0
+3  5db95016e819881df9bb182b        4      0     20     30      0
+4  5db95016e819881df9bb182c        5      0     20     30     40
+5  5db95016e819881df9bb182d        6      0      0     30     40
+6  5db95016e819881df9bb182e        7      0      0     30     40
+7  5db95016e819881df9bb182f        8      0      0      0     40
+8  5db95016e819881df9bb1830        9     10      0      0     40
+9  5db95016e819881df9bb1831       10     10      0      0     40
+---------------------------
+Now is transaction number  0
+-----------------------------
+getDATA
+                        _id  user_ID  cash1  cash2  cash3  cash4
+0  5db95016e819881df9bb1828        1     10     20      0      0
+1  5db95016e819881df9bb1829        2     10     20      0      0
+2  5db95016e819881df9bb182a        3     10     20     30      0
+3  5db95016e819881df9bb182b        4      0     20     30      0
+4  5db95016e819881df9bb182c        5      0     20     30     40
+5  5db95016e819881df9bb182d        6      0      0     30     40
+6  5db95016e819881df9bb182e        7      0      0     30     40
+7  5db95016e819881df9bb182f        8      0      0      0     40
+8  5db95016e819881df9bb1830        9     10      0      0     40
+9  5db95016e819881df9bb1831       10     10      0      0     40
+0 is number      generator length =  8
+1 is number      ...loading input file
+2 is number      constraints are generated - 1 allocations
+3 is number      generator length =  8
+4 is number      proof  is loaded
+5 is number      commit is done
+6 is number      verification SUCCESS
+7 is number      Proved execution successfully with bulletproof, generated:
+8 is number                              Proof: testprove.p
+9 is number      
+['generator length =  8', '...loading input file', 'constraints are generated - 1 allocations', 'generator length =  8', 'proof  is loaded', 'commit is done', 'verification SUCCESS', 'Proved execution successfully with bulletproof, generated:', '                        Proof: testprove.p', '']
+proveStatus is  verification SUCCESS
+This is fucju=ing output ['25', '10', '83']
+25
+10
+26 this is a random key
+83 this is a get key
+ERROR Can't make this block of transaction 
+result DB after Transactions
+                        _id  user_ID  cash1  cash2  cash3  cash4
+0  5db95016e819881df9bb1828        1     10     20      0      0
+1  5db95016e819881df9bb1829        2     10     20      0      0
+2  5db95016e819881df9bb182a        3     10     20     30      0
+3  5db95016e819881df9bb182b        4      0     20     30      0
+4  5db95016e819881df9bb182c        5      0     20     30     40
+5  5db95016e819881df9bb182d        6      0      0     30     40
+6  5db95016e819881df9bb182e        7      0      0     30     40
+7  5db95016e819881df9bb182f        8      0      0      0     40
+8  5db95016e819881df9bb1830        9     10      0      0     40
+9  5db95016e819881df9bb1831       10     10      0      0     40
+----------------------------
+time --- 2.112267017364502 seconds ---
